@@ -5,6 +5,8 @@
  */
 package crearn;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author JORGE
@@ -17,6 +19,8 @@ public class CalNum extends javax.swing.JFrame {
     String num;
     public CalNum() {
         initComponents();
+        setIconImage(new ImageIcon(getClass().getResource("../images/icono.jpg")).getImage());
+        
     }
 
     /**
